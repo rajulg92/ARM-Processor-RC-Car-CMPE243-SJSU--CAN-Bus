@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">@color/metalgolden</item>
+    </style>
+
+    <style name="Widget.Button.TogglePower" parent="android:Widget">
+        <item name="android:background">@drawable/ic_toggle_bg_power</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="toggleButtonPower"  parent="@android:style/Theme.Black">
+        <item name="android:buttonStyleToggle">@style/Widget.Button.TogglePower</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+</resources>

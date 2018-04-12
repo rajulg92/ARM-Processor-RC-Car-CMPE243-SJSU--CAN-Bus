@@ -1,0 +1,11 @@
+HOW-TO:  Compiling the Cgreen Guide
+======================================
+
+The Cgreen Guide Book is written using Asciidoctor. Asciidoctor builds
+upon the asciidoc format, is 100 times faster than the Python asciidoc
+toolchain and can generate PDF in the same step. Writing in
+asciidoc(tor) is a wonderful way to write textual docs. Please visit
+http://www.asciidoctor.org for more information.
+
+You also need a source-highlighter as described in
+(http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#source-code)

@@ -1,0 +1,10 @@
+build
+.idea
+CMakeCache.txt
+CMakeFiles
+Testing
+*.exe
+*.stackdump
+build-stamp
+configure-stamp
+*~
